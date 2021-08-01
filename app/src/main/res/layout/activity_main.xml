@@ -7,18 +7,21 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/albumsList"
+        android:id="@+id/albumsListRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/listBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/messageTextViewOnList"
+        android:id="@+id/albumTitleInListItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
         android:paddingStart="@dimen/messageTextViewOnListPadding"
         android:paddingEnd="@dimen/messageTextViewOnListPadding"
         android:text="@string/loadingMessage"

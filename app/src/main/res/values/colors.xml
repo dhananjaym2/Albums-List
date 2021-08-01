@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="errorMessageColor">#FA0000</color>
     <color name="neutralMessageColor">#929292</color>
+    <color name="listBackground">#F7F6F3</color>
 </resources>

@@ -2,4 +2,5 @@
     <string name="app_name">Albums List</string>
     <string name="errorMessage">There was a problem while fetching that data. We request you to please try again.</string>
     <string name="loadingMessage">We\'re brewing awesome content for you, please give us some time.</string>
+    <string name="loadingFinishedNoContentToShow">Hmm, looks like you\'ve already tasted and checked out our best content. Why don\'t you finish off your other activities and come back. We might have some cool content for you by then!</string>
 </resources>
