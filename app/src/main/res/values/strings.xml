@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Albums List</string>
+    <string name="errorMessage">There was a problem while fetching that data. We request you to please try again.</string>
+    <string name="loadingMessage">We\'re brewing awesome content for you, please give us some time.</string>
 </resources>

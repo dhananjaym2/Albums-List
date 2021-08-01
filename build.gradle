@@ -14,6 +14,12 @@ buildscript {
     }
 }
 
+ext {
+    // Retrofit
+    retrofitVersion = '2.9.0'
+    okhttp3Version = '4.9.0'
+}
+
 allprojects {
     repositories {
         google()
