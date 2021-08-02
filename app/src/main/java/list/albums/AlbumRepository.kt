@@ -33,6 +33,7 @@ object AlbumRepository {
         for (albumEntity in listOfAlbumEntity) {
             listOfAlbums.add((Album(albumEntity.userId, albumEntity.id, albumEntity.title)))
         }
+        apiResponseMutableLiveData.value = listOfAlbums
         return listOfAlbums
     }
 
