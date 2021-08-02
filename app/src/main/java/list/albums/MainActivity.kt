@@ -25,10 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         initViews()
         initViewModel()
-
-        if (savedInstanceState == null) {
-            refreshData()
-        }
+        refreshData()
     }
 
     private fun initViews() {
