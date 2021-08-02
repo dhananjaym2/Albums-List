@@ -30,7 +30,7 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     DB_NAME
-                ).addMigrations(*DatabaseMigrations.MIGRATIONS).build()
+                ).addMigrations(*DatabaseMigrations.MIGRATIONS).allowMainThreadQueries().build()
 
                 INSTANCE = instance
                 return instance
